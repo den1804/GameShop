@@ -3,11 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GameShop", "GameShop\GameShop.shproj", "{617F6E30-A328-426B-9F51-BC98FD5CDF37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Domain", "GameStore.Domain\GameStore.Domain.csproj", "{48B55D83-00AF-489F-935C-6DA943BE0778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.WebUI", "GameStore.WebUI\GameStore.WebUI.csproj", "{27E6E47E-391B-44F4-B187-7178F534C054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.UnitTests", "GameStore.UnitTests\GameStore.UnitTests.csproj", "{2F164A42-6E65-42C3-BF07-D0AACDCC5E24}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		GameShop\GameShop.projitems*{617f6e30-a328-426b-9f51-bc98fd5cdf37}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B55D83-00AF-489F-935C-6DA943BE0778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B55D83-00AF-489F-935C-6DA943BE0778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B55D83-00AF-489F-935C-6DA943BE0778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B55D83-00AF-489F-935C-6DA943BE0778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E6E47E-391B-44F4-B187-7178F534C054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E6E47E-391B-44F4-B187-7178F534C054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E6E47E-391B-44F4-B187-7178F534C054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E6E47E-391B-44F4-B187-7178F534C054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F164A42-6E65-42C3-BF07-D0AACDCC5E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F164A42-6E65-42C3-BF07-D0AACDCC5E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F164A42-6E65-42C3-BF07-D0AACDCC5E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F164A42-6E65-42C3-BF07-D0AACDCC5E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
